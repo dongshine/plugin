@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello select</title>
+    <link rel="stylesheet" href="css/select.css">
+</head>
+<body>
+
+<input type="hidden" data-checked="{name: '面值',value:'0'}" data-options="[{name: '30元', value: '30'},{name: '50元', value: '50'},{name: '100元', value: '100'}]" id="money">
+
+<script src="js/jquery.js"></script>  
+<script src="js/select.js"></script>
+<script>
+    select({
+        ele:$("#money")
+    }); 
+</script> 
+</body>
+</html>
